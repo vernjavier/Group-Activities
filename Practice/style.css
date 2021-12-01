@@ -1,0 +1,322 @@
+body {
+  background-color: whitesmoke;
+  color: #333333;
+  margin: 0px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  padding: 0px;
+}
+
+nav {
+  overflow: hidden;
+  display: flex;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  background-color: #161616;
+}
+
+nav > a {
+  list-style-type: none;
+  overflow: hidden;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #5f5f5f;
+}
+
+.currentPage {
+  background-color: #06bdcf;
+}
+
+/* LEFT CONTAINER */
+div.left {
+  margin-top: 42px;
+  float: left;
+  background-color: #06bdcf;
+  width: 400px;
+}
+
+div.left {
+  position: absolute;
+  z-index: 5;
+}
+
+.contact {
+  margin-top: 400px;
+  margin-left: 50px;
+}
+
+.contact > h2 {
+  font-family: Arial;
+  color: whitesmoke;
+}
+
+.leftDivider {
+  border-top: 3px solid whitesmoke;
+}
+
+.contactIcons {
+  float: left;
+}
+
+#c_location {
+  margin-top: 5px;
+  margin-left: 2px;
+  width: 20px;
+  height: auto;
+  filter: invert(100%) brightness(150%);
+}
+
+#c_phone {
+  margin-top: 75px;
+  margin-left: 3px;
+  width: 18px;
+  height: auto;
+  filter: invert(100%) brightness(150%);
+}
+
+#c_email {
+  margin-top: 48px;
+  width: 25px;
+  height: auto;
+  filter: invert(100%) brightness(150%);
+}
+
+#c_website {
+  margin-top: 58px;
+  width: 25px;
+  height: auto;
+  filter: invert(100%) brightness(150%);
+}
+
+.contactInfo {
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 15px;
+  color: whitesmoke;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+#contactHead {
+  font-size: 17px;
+}
+
+.skills {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.skills > h2 {
+  font-family: Arial;
+  color: whitesmoke;
+}
+
+.skillTitle {
+  float: left;
+  width: fit-content;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.skillTitle > p {
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+#s_photoshop {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  width: 200px;
+  height: 15px;
+}
+
+#s_illustrator {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  width: 200px;
+  height: 15px;
+}
+
+#s_indesign {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  width: 200px;
+  height: 15px;
+}
+
+#s_msOffice {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  width: 200px;
+  height: 15px;
+}
+
+#s_html5 {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  width: 200px;
+  height: 15px;
+}
+
+#s_css {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  width: 200px;
+  height: 15px;
+}
+
+.interests {
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 24px;
+  color: whitesmoke;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.interests > ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+ul > li::before {
+  content: "•";
+  font-size: 3em;
+  color: whitesmoke;
+  padding-right: 10px;
+  vertical-align: bottom;
+}
+/* RIGHT CONTAINER */
+div.intro {
+  margin-left: 35px;
+  margin-top: 60px;
+}
+
+div.name > hr {
+  border-top: 15px solid #282c30;
+}
+
+.name > h1 {
+  margin-top: 68px;
+}
+
+.name > h3 {
+  margin-bottom: 68px;
+}
+
+.name {
+  margin-top: 8px;
+}
+
+#surname {
+  color: #810050;
+}
+
+div.dp {
+  float: left;
+  margin-right: 15px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: whitesmoke;
+  background-color: whitesmoke;
+}
+
+div.picName {
+  margin-left: 200px;
+  position: relative;
+  z-index: 7;
+}
+
+/* div.educ{
+  float: right;
+  z-index: 9;
+  left: 25px;
+} */
+
+/* Education */
+div.educ {
+  margin-left: 380px;
+}
+.school {
+  float: left;
+  width: 200px;
+  height: 75px;
+  line-height: 45px;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.yearsingle {
+  float: left;
+  width: 350px;
+  height: 75px;
+  line-height: 45px;
+  text-align: left;
+  /*  border: 3px solid black;*/
+  padding: 20px;
+  padding-right: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.year {
+  float: left;
+  width: 350px;
+  height: 75px;
+  line-height: 45px;
+  text-align: left;
+  padding: 20px;
+  padding-right: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.year p {
+  /*align for multiple lines*/
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img {
+  float: right;
+}
+
+.inline-block-child {
+  display: inline-block;
+}
+
+.educ {
+  margin: auto;
+  width: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
