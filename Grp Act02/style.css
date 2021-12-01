@@ -1,0 +1,151 @@
+body {
+  background-color: whitesmoke;
+  color: #333333;
+  margin: 0px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  overflow: hidden;
+  display: flex;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  background-color: #19659f;
+}
+
+nav > a {
+  list-style-type: none;
+  overflow: hidden;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #2a86cc;
+}
+
+.currentPage {
+  background-color: #004981;
+}
+
+div.intro {
+  margin-left: 35px;
+  margin-top: 60px;
+}
+
+div.name > hr {
+  border-top: 15px solid #19659f;
+}
+
+.name > h1 {
+  margin-top: 68px;
+}
+
+.name > h3 {
+  margin-bottom: 68px;
+}
+
+.name {
+  margin-top: 8px;
+}
+
+#surname {
+  color: #810050;
+}
+
+div.dp {
+  float: left;
+  margin-right: 15px;
+  margin-left: 100px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: darkblue;
+}
+
+.headerDivider1 {
+  border-left: 1px solid #38546d;
+  height: 80px;
+  position: absolute;
+  right: 250px;
+  top: 10px;
+}
+
+.headerDivider2 {
+  border-left: 1px solid #16222c;
+  height: 80px;
+  position: absolute;
+  right: 249px;
+  top: 10px;
+}
+
+.school {
+  float: left;
+  width: 200px;
+  height: 75px;
+  line-height: 45px;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.yearsingle {
+  float: left;
+  width: 350px;
+  height: 75px;
+  line-height: 45px;
+  text-align: left;
+  /*  border: 3px solid black;*/
+  padding: 20px;
+  padding-right: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.year {
+  float: left;
+  width: 350px;
+  height: 75px;
+  line-height: 45px;
+  text-align: left;
+  padding: 20px;
+  padding-right: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.year p {
+  /*align for multiple lines*/
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img {
+  float: right;
+}
+
+.inline-block-child {
+  display: inline-block;
+}
+
+.educ {
+  margin: auto;
+  width: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
