@@ -107,14 +107,13 @@ div.left {
   margin-left: 40px;
 }
 
-#email {
+#email, #link {
   color: whitesmoke;
   text-decoration: none;
   font-size: 14px;
 }
 
-#email:hover,
-#email:active {
+#email:hover, #email:active, #link:hover, #link:active {
   color: whitesmoke;
   text-decoration: none;
 }
@@ -122,6 +121,10 @@ div.left {
 #contactHead {
   font-size: 17px;
   line-height: 30px;
+}
+
+#link {
+  font-size: 15px;
 }
 
 .skills {
