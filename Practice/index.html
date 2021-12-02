@@ -23,7 +23,7 @@
     <div class="left">
       <!-- CONTACT INFO -->
       <div class="contact">
-        <h2>CONTACT</h2>
+        <h3>CONTACT</h3>
         <hr class="leftDivider" />
 
         <div class="contactIcons">
@@ -85,7 +85,7 @@
 
       <!-- SKILLS -->
       <div class="skills">
-        <h2>SKILLS</h2>
+        <h3>SKILLS</h3>
         <hr class="leftDivider" />
 
         <div class="skillTitle">
@@ -137,7 +137,7 @@
       </div>
 
       <div class="interests">
-        <h2>INTERESTS</h2>
+        <h3>INTERESTS</h3>
         <hr class="leftDivider" />
 
         <ul class="listInterest">
@@ -150,7 +150,7 @@
       </div>
     </div>
 
-    <!-- RIGHT CONTAINER -->
+    <!-- ------ RIGHT CONTAINER ------------------------ -->
     <div class="right">
       <div class="intro">
         <div class="picName">
@@ -161,10 +161,10 @@
             />
           </div>
           <div class="name">
-            <hr />
+            <hr>
             <h1>Mark Angelo <strong id="surname">Prongoso</strong></h1>
-            <h3>Third Year College Student &nbsp; | &nbsp; Laguna</h3>
-            <hr />
+            <h3>Third Year College Student &nbsp; |  &nbsp; Laguna</h3>
+            <hr>
           </div>
         </div>
       </div>
@@ -243,16 +243,19 @@
       <div class="work">
         <h2>Work Experience</h2>
       </div> -->
+      <br>
+      <br>
+      <br>
 
       <div class="formFooter">
-        <hr class="rightDivider" />
-        <h3>Send me a message or suggestion(s)</h3>
-        <form method="GET">
+        <hr class="rightDivider" id="formDivider"/>
+        <h3 id="formHead">Send me a message or suggestion(s)</h3>
+        <form method="GET" id="messageForm">
           <label for="email"><b>E-mail: </b></label>
           <input
             type="text"
             class="e-mailInput"
-            id="email"
+            id="emailForm"
             placeholder="youremail@sample.com"
           /><br /><br />
           <label for="message"><b>Message:</b></label>
@@ -262,22 +265,17 @@
             id="message"
             placeholder="Your message here"
           /><br /><br />
-          <button type="submit">Send</button>
+          <button type="submit" id="submitButton">Send</button>
           <em>
-            <h5>
+            <h5 id="formNote">
               Note: This form does not store entered information. This is for
               Demo only (for now).
             </h5>
-            `</em
-          >
+          </em>
         </form>
-      
 
-      <br />
-
-      <hr class="rightDivider" />
-        
-        <footer>
+        <!-- <hr class="rightDivider" /> -->
+        <!-- <footer>
          <div class="contactInfo">
            <br /><br />
             <h3>&nbsp;Contact</h3>
@@ -291,7 +289,7 @@
             </p>
             <br />
           </div>
-        </footer>
+        </footer> -->
       </div>
     </div>
   </body>

@@ -40,22 +40,22 @@ a:hover {
   background-color: #06bdcf;
 }
 
-/* LEFT CONTAINER */
+/* --- LEFT CONTAINER ------------------------- */
 div.left {
   margin-top: 42px;
   float: left;
   background-color: #06bdcf;
-  width: 25%;
+  width: 23.5%;
   position: absolute;
   z-index: 5;
 }
 
 .contact {
-  margin-top: 400px;
+  margin-top: 340px;
   margin-left: 30px;
 }
 
-.contact > h2 {
+.contact > h3 {
   font-family: Arial;
   color: whitesmoke;
 }
@@ -110,6 +110,7 @@ div.left {
 #email {
   color: whitesmoke;
   text-decoration: none;
+  font-size: 14px;
 }
 
 #email:hover,
@@ -121,15 +122,14 @@ div.left {
 #contactHead {
   font-size: 17px;
   line-height: 30px;
-
 }
 
 .skills {
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 30px;
 }
 
-.skills > h2 {
+.skills > h3 {
   font-family: Arial;
   color: whitesmoke;
 }
@@ -152,48 +152,48 @@ div.left {
   margin-top: 15px;
   margin-bottom: 10px;
   margin-left: 2px;
-  width: 55%;
-  height: 15px;
+  width: 50%;
+  height: 14px;
 }
 
 #s_illustrator {
   margin-top: 4px;
   margin-bottom: 10px;
   margin-left: 2px;
-  width: 55%;
-  height: 15px;
+  width: 50%;
+  height: 14px;
 }
 
 #s_indesign {
   margin-top: 4px;
   margin-bottom: 10px;
   margin-left: 2px;
-  width: 55%;
-  height: 15px;
+  width: 50%;
+  height: 14px;
 }
 
 #s_msOffice {
   margin-top: 4px;
   margin-bottom: 10px;
   margin-left: 2px;
-  width: 55%;
-  height: 15px;
+  width: 50%;
+  height: 14px;
 }
 
 #s_html5 {
   margin-top: 4px;
   margin-bottom: 10px;
   margin-left: 2px;
-  width: 55%;
-  height: 15px;
+  width: 50%;
+  height: 14px;
 }
 
 #s_css {
   margin-top: 4px;
   margin-bottom: 10px;
   margin-left: 2px;
-  width: 55%;
-  height: 15px;
+  width: 50%;
+  height: 14px;
 }
 
 .interests {
@@ -202,7 +202,7 @@ div.left {
   font-size: 15px;
   line-height: 24px;
   color: whitesmoke;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 30px;
 }
 
@@ -229,9 +229,13 @@ div.name > hr {
   border-top: 15px solid #203142;
 }
 
+#stick {
+  color: #06bdcf;
+}
+
 #surname {
   font-family: Arial;
-  color: #06bdcf;
+  color: #356faa;
 }
 
 .name > h1 {
@@ -271,7 +275,7 @@ div.educ {
 
   padding-left: 4%;
   padding-right: 4%;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 
@@ -359,8 +363,58 @@ div.educ {
   color: #203142;
 } */
 
+#formDivider {
+  margin-left: -50%;
+}
+
+#formHead {
+  color: whitesmoke;
+}
+
 .formFooter {
   margin-left: 23%;
-  margin-right: 2%;
-  padding-left: 40px;
+  margin-right: 0;
+  padding-left: 60px;
+  background-color: #161616;
+  height: 274px;
+}
+
+#submitButton {
+  color: whitesmoke; 
+  background-color: #06bdcf; 
+  border: 0px;
+  padding: 12px 20px;
+	border-radius: 5px;
+}
+
+#formNote {
+  margin-left: -2%;
+  color: whitesmoke;
+}
+
+#messageForm {
+  margin-left: 15px;
+}
+
+#submitButton:hover {
+  color: whitesmoke;
+  background-color: #07a9b8;
+  cursor: pointer;
+}
+
+#emailForm {
+  margin-left: 10px;
+}
+
+#message, #emailForm {
+  background: white;
+  font-family: Roboto;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+label {
+  color: white;
+  font-size: medium;
+  padding: 2px 5px;
 }
