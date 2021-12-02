@@ -104,14 +104,15 @@ div.left {
   font-size: 15px;
   color: whitesmoke;
   margin-top: 15px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 #email {
   color: whitesmoke;
 }
 
-#email:hover, #email:active {
+#email:hover,
+#email:active {
   color: whitesmoke;
   text-decoration: none;
 }
@@ -222,18 +223,22 @@ div.intro {
 }
 
 div.name > hr {
-  border-top: 15px solid #282c30;
+  border-top: 15px solid #203142;
 }
 
 #surname {
+  font-family: Arial;
   color: #06bdcf;
 }
 
 .name > h1 {
+  font-family: Arial;
   margin-top: 68px;
 }
 
 .name > h3 {
+  font-family: Arial;
+  font-weight: lighter;
   margin-bottom: 68px;
 }
 
@@ -260,29 +265,22 @@ div.picName {
 div.educ {
   margin-left: 370px;
 }
-.school {
+
+.rightDivider {
+  border-top: 3px solid #0a8c8e;
+}
+
+.year {
   float: left;
   width: 200px;
   height: 75px;
   line-height: 45px;
-  text-align: center;
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.yearsingle {
-  float: left;
-  width: 350px;
-  height: 75px;
-  line-height: 45px;
   text-align: left;
-  /*  border: 3px solid black;*/
   padding: 20px;
-  padding-right: 80px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.year {
+.school {
   float: left;
   width: 350px;
   height: 75px;
@@ -294,7 +292,7 @@ div.educ {
   margin-top: 7px;
 }
 
-.year p {
+.school p {
   /*align for multiple lines*/
   line-height: 1.5;
   display: inline-block;
@@ -327,12 +325,32 @@ div.educ {
   padding-bottom: 50px;
 }
 
+.educ > h2 {
+  font-family: Arial;
+  color: #203142;
+}
+
 .container {
   display: flex;
   justify-content: center;
   margin-top: 15px;
 }
 
+/* .work {
+  background-color: #161616;
+  width: 65%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.work > h2 {
+  font-family: Arial;
+  color: #203142;
+} */
+
 .formFooter {
   margin-left: 370px;
+  padding-left: 40px;
 }
