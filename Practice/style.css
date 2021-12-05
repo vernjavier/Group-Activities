@@ -9,14 +9,15 @@ header {
   width: 100%;
   z-index: 9;
   padding: 0px;
+  margin: 0px;
 }
 
 nav {
   overflow: hidden;
   display: flex;
   height: 60px;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   background-color: #161616;
 }
 
@@ -26,7 +27,7 @@ nav > a {
   justify-content: center;
   text-decoration: none;
   color: white;
-  padding: 20px;
+  padding: 20px 23px;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -41,18 +42,18 @@ a:hover {
 }
 
 /* --- LEFT CONTAINER ------------------------- */
-div.left {
-  margin-top: 42px;
+.left {
+  margin-top: 0px;
   float: left;
   background-color: #06bdcf;
   width: 23.5%;
-  height: 216.6%;
+  height: 243.6%;
   position: absolute;
   z-index: 5;
 }
 
 .contact {
-  margin-top: 340px;
+  margin-top: 383px;
   margin-left: 30px;
 }
 
@@ -135,7 +136,7 @@ div.left {
 }
 
 .skills {
-  /* margin-top: 60px; */
+  margin-top: 50px;
   margin-left: 30px;
 }
 
@@ -346,11 +347,6 @@ div.rightTitle {
   padding-bottom: 50px;
 } */
 
-.educ > h2 {
-  font-family: Arial;
-  color: #203142;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -415,4 +411,24 @@ label {
   color: white;
   font-size: medium;
   padding: 2px 5px;
+}
+
+/* ------------------------CERTIFICATES--------------------------- */
+.leftNav {
+  margin-top: 100px;
+  margin-left: 20px;
+  /* position: fixed; */
+}
+
+.organizer > ul,
+a {
+  color: whitesmoke;
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+#orgName {
+  font-weight: 550;
 }
