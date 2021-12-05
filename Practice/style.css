@@ -56,7 +56,7 @@ div.left {
   margin-left: 30px;
 }
 
-.contact > h3 {
+.leftTitle {
   font-family: Arial;
   color: whitesmoke;
 }
@@ -133,7 +133,7 @@ div.left {
 }
 
 .skills {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   margin-left: 30px;
 }
 
@@ -291,7 +291,7 @@ div.rightTitle {
   border-top: 3px solid #0a8c8e;
 }
 
-.year {
+.tblLeft {
   float: left;
   width: 200px;
   height: 75px;
@@ -301,7 +301,7 @@ div.rightTitle {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.school {
+.tblMid {
   float: left;
   width: 45%;
   height: 4%;
@@ -313,7 +313,7 @@ div.rightTitle {
   margin-top: 7px;
 }
 
-.school p {
+.tblMid p {
   /*align for multiple lines*/
   line-height: 1.5;
   display: inline-block;
@@ -324,11 +324,7 @@ div.rightTitle {
   float: right;
 }
 
-.image1 {
-  margin-top: 30px;
-}
-
-.image {
+.tblRight {
   margin-top: 20px;
 }
 
@@ -354,7 +350,7 @@ div.rightTitle {
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 #formDivider {
