@@ -46,7 +46,7 @@ div.left {
   float: left;
   background-color: #06bdcf;
   width: 23.5%;
-  height: 180.5%;
+  height: 216.6%;
   position: absolute;
   z-index: 5;
 }
@@ -62,7 +62,9 @@ div.left {
 }
 
 .leftDivider {
-  border-top: 3px solid whitesmoke;
+  height: 3px;
+  background-color: whitesmoke;
+  border: none;
 }
 
 .contactIcons {
@@ -288,7 +290,9 @@ div.rightTitle {
 }
 
 .rightDivider {
-  border-top: 3px solid #0a8c8e;
+  height: 3px;
+  background-color: #0a8c8e;
+  border: none;
 }
 
 .tblLeft {
@@ -355,8 +359,9 @@ div.rightTitle {
 
 #formDivider {
   margin-left: -50%;
-  border-top: 2px solid #06bdcf;
-  border-bottom: 2px solid #06bdcf;
+  height: 5px;
+  background-color: #06bdcf;
+  border: none;
 }
 
 #formHead {
