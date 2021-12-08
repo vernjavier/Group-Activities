@@ -459,21 +459,27 @@ a {
   overflow: hidden;
 }
 
-.certContents > div> iframe {
-  /* float: left; */
-  border: 2px;
-  width: 275px;
-  height: 150px;
-  margin-bottom: 15px;
-}
-
-.certContents > div > img {
-  width: 380px;
+.certContents > div > div > img {
+  width: 385px;
   margin-bottom: 15px;
   border: 1px solid #161616;
 }
 
-.exceed > h3 {
+.certContents > div > p {
+  padding-left: 2.5%;
+  padding-right: 20%;
+  margin-bottom: 30px;
+}
+
+.certImg {
+  text-align: center;
+}
+
+.certContents > div {
+  align-content: center;
+}
+
+.exceed > h2 {
   margin-top: 10px;
 }
 
