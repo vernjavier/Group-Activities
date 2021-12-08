@@ -339,8 +339,16 @@ a:hover {
 }
 
 /* CONTAINER NG MGA DATA SA RIGHT NG TABLE EX: SCHOOL LOGO, ETC; */
-.tblRight {
-  margin-top: 20px;
+.tblRight1 img{
+  margin-top: 32px;
+}
+
+.tblRight2 img{
+  margin-top: 30px;
+}
+
+.tblRight3 img{
+  margin-top: 15px;
 }
 
 .tblRight > img {
