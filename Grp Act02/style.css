@@ -459,15 +459,26 @@ a {
   overflow: hidden;
 }
 
-.certContents > iframe {
-  float: left;
+.certContents > div> iframe {
+  /* float: left; */
   border: 2px;
-  margin: 20px;
-  width: 250px;
+  width: 275px;
+  height: 150px;
+  margin-bottom: 15px;
 }
 
-.exceed > img {
-  width: 55%;
+.certContents > div > img {
+  width: 380px;
+  margin-bottom: 15px;
+  border: 1px solid #161616;
+}
+
+.exceed > h3 {
+  margin-top: 10px;
+}
+
+.orgName {
+  margin-top: 50px;
 }
 
 /* --------------------------PROJECTS------------------------- */
