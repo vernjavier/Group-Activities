@@ -283,7 +283,7 @@ a:hover {
 
 /* CONTAINER NG PIC AND NAME NI PRONGGI */
 .picName {
-  margin-left: 200px;
+  margin-left: 12.5%;
   position: relative;
   z-index: 7;
 }
@@ -467,32 +467,36 @@ a {
   overflow: hidden;
 }
 
+#certLine {
+  margin-right: 2.5%;
+}
+
 .certContents > div > div > img {
-  width: 385px;
+  width: 42%;
   margin-bottom: 15px;
   border: 1px solid #161616;
 }
 
 .certContents > div > p {
   padding-left: 2.5%;
-  padding-right: 20%;
+  margin-right: 16%;
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .certImg {
   text-align: center;
 }
 
-.certContents > div {
-  align-content: center;
-}
-
 .exceed > h2 {
   margin-top: 10px;
+  font-size: 22px;
 }
 
+/*---- ORG NAME IN THE RIGHT SIDE -------- */
 .orgName {
   margin-top: 50px;
+  font-size: 22px;
 }
 
 /* --------------------------PROJECTS------------------------- */
