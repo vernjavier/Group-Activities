@@ -46,6 +46,7 @@ a:hover {
 
 /* -BUONG CYAN LEFT- */
 .left {
+  flex-direction: column;
   margin-top: 0px;
   float: left;
   background-color: #06bdcf;
@@ -339,15 +340,15 @@ a:hover {
 }
 
 /* CONTAINER NG MGA DATA SA RIGHT NG TABLE EX: SCHOOL LOGO, ETC; */
-.tblRight1 img{
+.tblRight1 img {
   margin-top: 32px;
 }
 
-.tblRight2 img{
+.tblRight2 img {
   margin-top: 30px;
 }
 
-.tblRight3 img{
+.tblRight3 img {
   margin-top: 15px;
 }
 
@@ -434,6 +435,10 @@ label {
 /* .right {
   position: fixed;
 } */
+html {
+  scroll-padding-top: 75px;
+  scroll-behavior: smooth;
+}
 
 /* CONTAINER NUNG BUONG MENU */
 .leftNav {
@@ -462,7 +467,8 @@ a {
 }
 
 .certContents {
-  margin-left: 25%;
+  font-family: Arial;
+  margin-left: 27%;
   padding-top: 5.5%;
   overflow: hidden;
 }
@@ -479,9 +485,10 @@ a {
 
 .certContents > div > p {
   padding-left: 2.5%;
-  margin-right: 16%;
+  margin-right: 10%;
   margin-bottom: 30px;
   font-size: 18px;
+  text-align: justify;
 }
 
 .certImg {
@@ -495,17 +502,33 @@ a {
 
 /*---- ORG NAME IN THE RIGHT SIDE -------- */
 .orgName {
+  font-family: Arial;
   margin-top: 50px;
   font-size: 22px;
 }
 
 /* --------------------------PROJECTS------------------------- */
-
-.row {
-  display: flex;
+.orgName {
+  font-family: Arial;
+  margin-top: 50px;
+  font-size: 22px;
 }
 
-.column {
-  flex: 50%;
-  padding: 5px;
+/* --------------------------PROJECTS------------------------- */
+.Left {
+  float: left;
+  width: 15%;
+  height: 280px;
+}
+
+.Mid {
+  float: left;
+  width: 15%;
+  height: 280px;
+}
+
+.Right {
+  float: left;
+  width: 15%;
+  height: 280px;
 }
